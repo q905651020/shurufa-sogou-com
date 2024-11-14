@@ -1,1 +1,0 @@
-# shurufa-sogou-com
