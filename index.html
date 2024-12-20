@@ -133,41 +133,35 @@
     <style>
         .download-btn{
             text-align: center;
+            margin-top: 1rem;
+            padding: 0 1rem;
         }
         .download-btn a{
             background-color: #fff;
             display: block flex;
-            justify-items: center;
+            justify-content: center;
             align-items: center;
             gap: 10px;
             font-size: 16px;
             color: #0091ff;
+            border-radius: 25px;
+            width: 200px;
+            height: 50px;
+            text-decoration: none;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1)
         }
-        .download-btn a{
+        .download-btn a:hover{
             background-color: #e3f3ff;
         }
     </style>
 
     <!-- 平台图标区域 -->
-    <div class="platforms">
-        <a href="javascript:void(0)" class="getDown platform-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256">
-                <path fill="#F1511B" d="M121.666 121.666H0V0h121.666z" />
-                <path fill="#80CC28" d="M256 121.666H134.335V0H256z" />
-                <path fill="#00ADEF" d="M121.663 256.002H0V134.336h121.663z" />
-                <path fill="#FBBC09" d="M256 256.002H134.335V134.336H256z" />
-            </svg>
-            <span>Windows</span>
-        </a>
-        
         <div class="download-btn">
             <a href="javascript:void(0)" class="getDown">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#0091ff" d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2m0 15l-5-5h4V7h2v5h4z"/></svg>
                 立即下载
             </a>
         </div>
-
-    </div>
 </div>
 <h2 class="tit" style="margin-top: 3rem;">特点展示</h2>
 <!-- 特点展示区域 -->
